@@ -732,6 +732,225 @@
 }
 
 
+/****************************************************************************
+ * Production Colors - Green
+ ****************************************************************************/
+.bg-green-lighten5 {
+    background-color: #e8f5e9;
+    color: #000;
+}
+
+.bg-green-lighten4 {
+    background-color: #c8e6c9;
+    color: #000;
+}
+
+.bg-green-lighten3 {
+    background-color: #a5d6a7;
+    color: #000;
+}
+
+.bg-green-lighten2 {
+    background-color: #81c784;
+    color: #000;
+}
+
+.bg-green-lighten1 {
+    background-color: #66bb6a;
+    color: #000;
+}
+
+.bg-green {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.bg-green-darken1 {
+    background-color: #43a047;
+    color: #fff;
+}
+
+.bg-green-darken2 {
+    background-color: #388e3c;
+    color: #fff;
+}
+
+.bg-green-darken3 {
+    background-color: #2e7d32;
+    color: #fff;
+}
+
+.bg-green-darken4 {
+    background-color: #1b5e20;
+    color: #fff;
+}
+
+.bg-green-accent1 {
+    background-color: #b9f6ca;
+    color: #000;
+}
+
+.bg-green-accent2 {
+    background-color: #69f0ae;
+    color: #000;
+}
+
+.bg-green-accent3 {
+    background-color: #00e676;
+    color: #000;
+}
+
+.bg-green-accent4 {
+    background-color: #00c853;
+    color: #000;
+}
+
+/****************************************************************************
+ * Production Colors - Light-Green
+ ****************************************************************************/
+.bg-light-green-lighten5 {
+    background-color: #f1f8e9;
+    color: #000;
+}
+
+.bg-light-green-lighten4 {
+    background-color: #dcedc8;
+    color: #000;
+}
+
+.bg-light-green-lighten3 {
+    background-color: #c5e1a5;
+    color: #000;
+}
+
+.bg-light-green-lighten2 {
+    background-color: #aed581;
+    color: #000;
+}
+
+.bg-light-green-lighten1 {
+    background-color: #9ccc65;
+    color: #000;
+}
+
+.bg-light-green {
+    background-color: #8bc34a;
+    color: #fff;
+}
+
+.bg-light-green-darken1 {
+    background-color: #7cb342;
+    color: #fff;
+}
+
+.bg-light-green-darken2 {
+    background-color: #689f38;
+    color: #fff;
+}
+
+.bg-light-green-darken3 {
+    background-color: #558b2f;
+    color: #fff;
+}
+
+.bg-light-green-darken4 {
+    background-color: #33691e;
+    color: #fff;
+}
+
+.bg-light-green-accent1 {
+    background-color: #ccff90;
+    color: #000;
+}
+
+.bg-light-green-accent2 {
+    background-color: #b2ff59;
+    color: #000;
+}
+
+.bg-light-green-accent3 {
+    background-color: #76ff03;
+    color: #000;
+}
+
+.bg-light-green-accent4 {
+    background-color: #64dd17;
+    color: #000;
+}
+
+/****************************************************************************
+ * Production Colors - Lime
+ ****************************************************************************/
+.bg-lime-lighten5 {
+    background-color: #f9fbe7;
+    color: #000;
+}
+
+.bg-lime-lighten4 {
+    background-color: #f0f4c3;
+    color: #000;
+}
+
+.bg-lime-lighten3 {
+    background-color: #e6ee9c;
+    color: #000;
+}
+
+.bg-lime-lighten2 {
+    background-color: #dce775;
+    color: #000;
+}
+
+.bg-lime-lighten1 {
+    background-color: #d4e157;
+    color: #000;
+}
+
+.bg-lime {
+    background-color: #cddc39;
+    color: #fff;
+}
+
+.bg-lime-darken1 {
+    background-color: #c0ca33;
+    color: #fff;
+}
+
+.bg-lime-darken2 {
+    background-color: #afb42b;
+    color: #fff;
+}
+
+.bg-lime-darken3 {
+    background-color: #9e9d24;
+    color: #fff;
+}
+
+.bg-lime-darken4 {
+    background-color: #827717;
+    color: #fff;
+}
+
+.bg-lime-accent1 {
+    background-color: #f4ff81;
+    color: #000;
+}
+
+.bg-lime-accent2 {
+    background-color: #eeff41;
+    color: #000;
+}
+
+.bg-lime-accent3 {
+    background-color: #c6ff00;
+    color: #000;
+}
+
+.bg-lime-accent4 {
+    background-color: #aeea00;
+    color: #000;
+}
+
 
 
 
