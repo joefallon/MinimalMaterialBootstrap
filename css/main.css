@@ -1,4 +1,6 @@
-/* main.css */
+/****************************************************************************
+ * Fonts
+ ****************************************************************************/
 @font-face {
     font-family: Roboto;
     src: url("../fonts/Roboto-Medium.woff2?v=1.1.0") format("woff2"),
@@ -26,48 +28,867 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Light.woff2?v=1.1.0") format("woff2"),
+    url("../fonts/Roboto-Light.woff?v=1.1.0") format("woff"),
+    url("../fonts/Roboto-Light.ttf?v=1.1.0") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/****************************************************************************
+ * Development Colors
+ ****************************************************************************/
+.bg-dev-pink {
+    background-color: #ffccff;
+}
+
+.bg-dev-green {
+    background-color: #caffd8;
+}
+
+.bg-dev-orange {
+    background-color: #f9dfc2;
+}
+
+.bg-dev-blue {
+    background-color: #dbf6f6;
+}
+
+.bg-dev-yellow {
+    background-color: #f6f6db;
+}
+
+.bg-dev-purple {
+    background-color: #a8a8ff;
+}
+
+
+/****************************************************************************
+ * Production Colors - Red
+ ****************************************************************************/
+.bg-red-lighten5 {
+    background-color: #ffebee;
+    color: #000;
+}
+
+.bg-red-lighten4 {
+    background-color: #ffcdd2;
+    color: #000;
+}
+
+.bg-red-lighten3 {
+    background-color: #ef9a9a;
+    color: #000;
+}
+
+.bg-red-lighten2 {
+    background-color: #e57373;
+    color: #000;
+}
+
+.bg-red-lighten1 {
+    background-color: #ef5350;
+    color: #000;
+}
+
+.bg-red {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.bg-red-darken1 {
+    background-color: #e53935;
+    color: #fff;
+}
+
+.bg-red-darken2 {
+    background-color: #d32f2f;
+    color: #fff;
+}
+
+.bg-red-darken3 {
+    background-color: #c62828;
+    color: #fff;
+}
+
+.bg-red-darken4 {
+    background-color: #b71c1c;
+    color: #fff;
+}
+
+.bg-red-accent1 {
+    background-color: #ff8a80;
+    color: #000;
+}
+
+.bg-red-accent2 {
+    background-color: #ff5252;
+    color: #000;
+}
+
+.bg-red-accent3 {
+    background-color: #ff1744;
+    color: #000;
+}
+
+.bg-red-accent4 {
+    background-color: #d50000;
+    color: #000;
+}
+
+
+/****************************************************************************
+ * Production Colors - Pink
+ ****************************************************************************/
+.bg-pink-lighten5 {
+    background-color: #fce4ec;
+    color: #000;
+}
+
+.bg-pink-lighten4 {
+    background-color: #f8bbd0;
+    color: #000;
+}
+
+.bg-pink-lighten3 {
+    background-color: #f48fb1;
+    color: #000;
+}
+
+.bg-pink-lighten2 {
+    background-color: #f06292;
+    color: #000;
+}
+
+.bg-pink-lighten1 {
+    background-color: #ec407a;
+    color: #000;
+}
+
+.bg-pink {
+    background-color: #e91e63;
+    color: #fff;
+}
+
+.bg-pink-darken1 {
+    background-color: #d81b60;
+    color: #fff;
+}
+
+.bg-pink-darken2 {
+    background-color: #c2185b;
+    color: #fff;
+}
+
+.bg-pink-darken3 {
+    background-color: #ad1457;
+    color: #fff;
+}
+
+.bg-pink-darken4 {
+    background-color: #880e4f;
+    color: #fff;
+}
+
+.bg-pink-accent1 {
+    background-color: #ff80ab;
+    color: #000;
+}
+
+.bg-pink-accent2 {
+    background-color: #ff4081;
+    color: #000;
+}
+
+.bg-pink-accent3 {
+    background-color: #f50057;
+    color: #000;
+}
+
+.bg-pink-accent4 {
+    background-color: #c51162;
+    color: #000;
+}
+
+
+/****************************************************************************
+ * Production Colors - Purple
+ ****************************************************************************/
+.bg-purple-lighten5 {
+    background-color: #f3e5f5;
+    color: #000;
+}
+
+.bg-purple-lighten4 {
+    background-color: #e1bee7;
+    color: #000;
+}
+
+.bg-purple-lighten3 {
+    background-color: #ce93d8;
+    color: #000;
+}
+
+.bg-purple-lighten2 {
+    background-color: #ba68c8;
+    color: #000;
+}
+
+.bg-purple-lighten1 {
+    background-color: #ab47bc;
+    color: #000;
+}
+
+.bg-purple {
+    background-color: #9c27b0;
+    color: #fff;
+}
+
+.bg-purple-darken1 {
+    background-color: #8e24aa;
+    color: #fff;
+}
+
+.bg-purple-darken2 {
+    background-color: #7b1fa2;
+    color: #fff;
+}
+
+.bg-purple-darken3 {
+    background-color: #6a1b9a;
+    color: #fff;
+}
+
+.bg-purple-darken4 {
+    background-color: #4a148c;
+    color: #fff;
+}
+
+.bg-purple-accent1 {
+    background-color: #ea80fc;
+    color: #000;
+}
+
+.bg-purple-accent2 {
+    background-color: #e040fb;
+    color: #000;
+}
+
+.bg-purple-accent3 {
+    background-color: #d500f9;
+    color: #000;
+}
+
+.bg-purple-accent4 {
+    background-color: #aa00ff;
+    color: #000;
+}
+
+
+/****************************************************************************
+ * Production Colors - Deep Purple
+ ****************************************************************************/
+.bg-deep-purple-lighten5 {
+    background-color: #ede7f6;
+    color: #000;
+}
+
+.bg-deep-purple-lighten4 {
+    background-color: #d1c4e9;
+    color: #000;
+}
+
+.bg-deep-purple-lighten3 {
+    background-color: #b39ddb;
+    color: #000;
+}
+
+.bg-deep-purple-lighten2 {
+    background-color: #9575cd;
+    color: #000;
+}
+
+.bg-deep-purple-lighten1 {
+    background-color: #7e57c2;
+    color: #000;
+}
+
+.bg-deep-purple {
+    background-color: #673ab7;
+    color: #fff;
+}
+
+.bg-deep-purple-darken1 {
+    background-color: #5e35b1;
+    color: #fff;
+}
+
+.bg-deep-purple-darken2 {
+    background-color: #512da8;
+    color: #fff;
+}
+
+.bg-deep-purple-darken3 {
+    background-color: #4527a0;
+    color: #fff;
+}
+
+.bg-deep-purple-darken4 {
+    background-color: #311b92;
+    color: #fff;
+}
+
+.bg-deep-purple-accent1 {
+    background-color: #b388ff;
+    color: #000;
+}
+
+.bg-deep-purple-accent2 {
+    background-color: #7c4dff;
+    color: #000;
+}
+
+.bg-deep-purple-accent3 {
+    background-color: #651fff;
+    color: #000;
+}
+
+.bg-deep-purple-accent4 {
+    background-color: #6200ea;
+    color: #000;
+}
+
+
+/****************************************************************************
+ * Production Colors - Indigo
+ ****************************************************************************/
+.bg-indigo-lighten5 {
+    background-color: #e8eaf6;
+    color: #000;
+}
+
+.bg-indigo-lighten4 {
+    background-color: #c5cae9;
+    color: #000;
+}
+
+.bg-indigo-lighten3 {
+    background-color: #9fa8da;
+    color: #000;
+}
+
+.bg-indigo-lighten2 {
+    background-color: #7986cb;
+    color: #000;
+}
+
+.bg-indigo-lighten1 {
+    background-color: #5c6bc0;
+    color: #000;
+}
+
+.bg-indigo {
+    background-color: #3f51b5;
+    color: #fff;
+}
+
+.bg-indigo-darken1 {
+    background-color: #3949ab;
+    color: #fff;
+}
+
+.bg-indigo-darken2 {
+    background-color: #303f9f;
+    color: #fff;
+}
+
+.bg-indigo-darken3 {
+    background-color: #283593;
+    color: #fff;
+}
+
+.bg-indigo-darken4 {
+    background-color: #1a237e;
+    color: #fff;
+}
+
+.bg-indigo-accent1 {
+    background-color: #8c9eff;
+    color: #000;
+}
+
+.bg-indigo-accent2 {
+    background-color: #536dfe;
+    color: #000;
+}
+
+.bg-indigo-accent3 {
+    background-color: #3d5afe;
+    color: #000;
+}
+
+.bg-indigo-accent4 {
+    background-color: #304ffe;
+    color: #000;
+}
+
+
+/****************************************************************************
+ * Production Colors - Blue
+ ****************************************************************************/
+.bg-blue-lighten5 {
+    background-color: #e3f2fd;
+    color: #000;
+}
+
+.bg-blue-lighten4 {
+    background-color: #bbdefb;
+    color: #000;
+}
+
+.bg-blue-lighten3 {
+    background-color: #90caf9;
+    color: #000;
+}
+
+.bg-blue-lighten2 {
+    background-color: #64b5f6;
+    color: #000;
+}
+
+.bg-blue-lighten1 {
+    background-color: #42a5f5;
+    color: #000;
+}
+
+.bg-blue {
+    background-color: #2196f3;
+    color: #fff;
+}
+
+.bg-blue-darken1 {
+    background-color: #1e88e5;
+    color: #fff;
+}
+
+.bg-blue-darken2 {
+    background-color: #1976d2;
+    color: #fff;
+}
+
+.bg-blue-darken3 {
+    background-color: #1565c0;
+    color: #fff;
+}
+
+.bg-blue-darken4 {
+    background-color: #0d47a1;
+    color: #fff;
+}
+
+.bg-blue-accent1 {
+    background-color: #82b1ff;
+    color: #000;
+}
+
+.bg-blue-accent2 {
+    background-color: #448aff;
+    color: #000;
+}
+
+.bg-blue-accent3 {
+    background-color: #2979ff;
+    color: #000;
+}
+
+.bg-blue-accent4 {
+    background-color: #2962ff;
+    color: #000;
+}
+
+
+/****************************************************************************
+ * Production Colors - Light Blue
+ ****************************************************************************/
+.bg-light-blue-lighten5 {
+    background-color: #e1f5fe;
+    color: #000;
+}
+
+.bg-light-blue-lighten4 {
+    background-color: #b3e5fc;
+    color: #000;
+}
+
+.bg-light-blue-lighten3 {
+    background-color: #81d4fa;
+    color: #000;
+}
+
+.bg-light-blue-lighten2 {
+    background-color: #4fc3f7;
+    color: #000;
+}
+
+.bg-light-blue-lighten1 {
+    background-color: #29b6f6;
+    color: #000;
+}
+
+.bg-light-blue {
+    background-color: #03a9f4;
+    color: #fff;
+}
+
+.bg-light-blue-darken1 {
+    background-color: #039be5;
+    color: #fff;
+}
+
+.bg-light-blue-darken2 {
+    background-color: #0288d1;
+    color: #fff;
+}
+
+.bg-light-blue-darken3 {
+    background-color: #0277bd;
+    color: #fff;
+}
+
+.bg-light-blue-darken4 {
+    background-color: #01579b;
+    color: #fff;
+}
+
+.bg-light-blue-accent1 {
+    background-color: #80d8ff;
+    color: #000;
+}
+
+.bg-light-blue-accent2 {
+    background-color: #40c4ff;
+    color: #000;
+}
+
+.bg-light-blue-accent3 {
+    background-color: #00b0ff;
+    color: #000;
+}
+
+.bg-light-blue-accent4 {
+    background-color: #0091ea;
+    color: #000;
+}
+
+
+/****************************************************************************
+ * Production Colors - Cyan
+ ****************************************************************************/
+.bg-cyan-lighten5 {
+    background-color: #e0f7fa;
+    color: #000;
+}
+
+.bg-cyan-lighten4 {
+    background-color: #b2ebf2;
+    color: #000;
+}
+
+.bg-cyan-lighten3 {
+    background-color: #80deea;
+    color: #000;
+}
+
+.bg-cyan-lighten2 {
+    background-color: #4dd0e1;
+    color: #000;
+}
+
+.bg-cyan-lighten1 {
+    background-color: #26c6da;
+    color: #000;
+}
+
+.bg-cyan {
+    background-color: #00bcd4;
+    color: #fff;
+}
+
+.bg-cyan-darken1 {
+    background-color: #00acc1;
+    color: #fff;
+}
+
+.bg-cyan-darken2 {
+    background-color: #0097a7;
+    color: #fff;
+}
+
+.bg-cyan-darken3 {
+    background-color: #00838f;
+    color: #fff;
+}
+
+.bg-cyan-darken4 {
+    background-color: #006064;
+    color: #fff;
+}
+
+.bg-cyan-accent1 {
+    background-color: #84ffff;
+    color: #000;
+}
+
+.bg-cyan-accent2 {
+    background-color: #18ffff;
+    color: #000;
+}
+
+.bg-cyan-accent3 {
+    background-color: #00e5ff;
+    color: #000;
+}
+
+.bg-cyan-accent4 {
+    background-color: #00b8d4;
+    color: #000;
+}
+
+
+/****************************************************************************
+ * Production Colors - Teal
+ ****************************************************************************/
+.bg-teal-lighten5 {
+    background-color: #e0f2f1;
+    color: #000;
+}
+
+.bg-teal-lighten4 {
+    background-color: #b2dfdb;
+    color: #000;
+}
+
+.bg-teal-lighten3 {
+    background-color: #80cbc4;
+    color: #000;
+}
+
+.bg-teal-lighten2 {
+    background-color: #4db6ac;
+    color: #000;
+}
+
+.bg-teal-lighten1 {
+    background-color: #26a69a;
+    color: #000;
+}
+
+.bg-teal {
+    background-color: #009688;
+    color: #fff;
+}
+
+.bg-teal-darken1 {
+    background-color: #00897b;
+    color: #fff;
+}
+
+.bg-teal-darken2 {
+    background-color: #00796b;
+    color: #fff;
+}
+
+.bg-teal-darken3 {
+    background-color: #00695c;
+    color: #fff;
+}
+
+.bg-teal-darken4 {
+    background-color: #004d40;
+    color: #fff;
+}
+
+.bg-teal-accent1 {
+    background-color: #a7ffeb;
+    color: #000;
+}
+
+.bg-teal-accent2 {
+    background-color: #64ffda;
+    color: #000;
+}
+
+.bg-teal-accent3 {
+    background-color: #1de9b6;
+    color: #000;
+}
+
+.bg-teal-accent4 {
+    background-color: #00bfa5;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * Typography
+ */
 body {
-    color: #757575;
-    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    color: rgba(0, 0, 0, .54);
+    background-color: #fafafa;
+}
+
+h1 {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 112px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.04em;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 1.35;
+    letter-spacing: -.02em;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 48px;
+    margin-bottom: 8px;
+}
+
+h4 {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 8px;
+}
+
+h5 {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+
+h6 {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: .02em;
+    margin-bottom: 8px;
+}
+
+p {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 16px;
+    margin: 0;
+    color: rgba(0, 0, 0, .54);
 }
 
 .card {
     background: #fff;
-    padding: 20px;
-    margin: 0.5rem 0 1rem 0;
     border-radius: 2px;
+    margin: 6px;
+}
+
+.card-heading {
+    background-color: #46B6AC;
+    color: #fff;
+
+}
+
+.card-heading h3 {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0;
+    padding: 18px;
+    line-height: 1em;
+}
+
+.card-main {
+
+}
+
+.card-actions {
+    border-top: #DADADA 1px solid;
+    padding: 18px;
+
 }
 
 .card-1 {
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14),
+    0 1px 5px 0 rgba(0, 0, 0, .12),
+    0 3px 1px -2px rgba(0, 0, 0, .2);
 }
 
 .card-2 {
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .14),
+    0 1px 8px 0 rgba(0, 0, 0, .12),
+    0 3px 3px -2px rgba(0, 0, 0, .4);
 }
 
 .card-3 {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14),
+    0 1px 10px 0 rgba(0, 0, 0, .12),
+    0 2px 4px -1px rgba(0, 0, 0, .4);
 }
 
 .card-4 {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .14),
+    0 1px 18px 0 rgba(0, 0, 0, .12),
+    0 3px 5px -1px rgba(0, 0, 0, .4);
 }
 
 .card-5 {
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14),
+    0 3px 14px 2px rgba(0, 0, 0, .12),
+    0 5px 5px -3px rgba(0, 0, 0, .4);
 }
 
-.green-background {
-    background-color: #CAFFD8;
+.card-6 {
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14),
+    0 6px 30px 5px rgba(0, 0, 0, .12),
+    0 8px 10px -5px rgba(0, 0, 0, .4);
 }
 
-.pink-background {
-    background-color: #FFCEFF;
-}
-
-.blue-background {
-    background-color: #AAAAFF;
+.card-7 {
+    box-shadow: 0 9px 46px 8px rgba(0, 0, 0, .14),
+    0 24px 38px 3px rgba(0, 0, 0, .12),
+    0 11px 15px -7px rgba(0, 0, 0, .4);
 }
 
 .table > thead > tr > th,
@@ -197,7 +1018,6 @@ body {
 .btn-flat:active {
     background-color: #ddd;
 }
-
 
 .btn-link:hover {
     background-color: #eee;
