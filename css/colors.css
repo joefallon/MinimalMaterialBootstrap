@@ -3,1376 +3,1628 @@
 /****************************************************************************
  * Development Colors
  ****************************************************************************/
-.bg-dev-pink {
+.bg-dev-pink
+{
     background-color: #ffccff;
 }
 
-.bg-dev-green {
+.bg-dev-green
+{
     background-color: #caffd8;
 }
 
-.bg-dev-orange {
+.bg-dev-orange
+{
     background-color: #f9dfc2;
 }
 
-.bg-dev-blue {
+.bg-dev-blue
+{
     background-color: #dbf6f6;
 }
 
-.bg-dev-yellow {
+.bg-dev-yellow
+{
     background-color: #f6f6db;
 }
 
-.bg-dev-purple {
+.bg-dev-purple
+{
     background-color: #a8a8ff;
 }
-
 
 /****************************************************************************
  * Production Colors - Red
  ****************************************************************************/
-.bg-red-lighten5 {
+.bg-red-lighten5
+{
     background-color: #ffebee;
-    color: #000;
+    color: #000000;
 }
 
-.bg-red-lighten4 {
+.bg-red-lighten4
+{
     background-color: #ffcdd2;
-    color: #000;
+    color: #000000;
 }
 
-.bg-red-lighten3 {
+.bg-red-lighten3
+{
     background-color: #ef9a9a;
-    color: #000;
+    color: #000000;
 }
 
-.bg-red-lighten2 {
+.bg-red-lighten2
+{
     background-color: #e57373;
-    color: #000;
+    color: #000000;
 }
 
-.bg-red-lighten1 {
+.bg-red-lighten1
+{
     background-color: #ef5350;
-    color: #000;
+    color: #000000;
 }
 
-.bg-red {
+.bg-red
+{
     background-color: #f44336;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-red-darken1 {
+.bg-red-darken1
+{
     background-color: #e53935;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-red-darken2 {
+.bg-red-darken2
+{
     background-color: #d32f2f;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-red-darken3 {
+.bg-red-darken3
+{
     background-color: #c62828;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-red-darken4 {
+.bg-red-darken4
+{
     background-color: #b71c1c;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-red-accent1 {
+.bg-red-accent1
+{
     background-color: #ff8a80;
-    color: #000;
+    color: #000000;
 }
 
-.bg-red-accent2 {
+.bg-red-accent2
+{
     background-color: #ff5252;
-    color: #000;
+    color: #000000;
 }
 
-.bg-red-accent3 {
+.bg-red-accent3
+{
     background-color: #ff1744;
-    color: #000;
+    color: #000000;
 }
 
-.bg-red-accent4 {
+.bg-red-accent4
+{
     background-color: #d50000;
-    color: #000;
+    color: #000000;
 }
-
 
 /****************************************************************************
  * Production Colors - Pink
  ****************************************************************************/
-.bg-pink-lighten5 {
+.bg-pink-lighten5
+{
     background-color: #fce4ec;
-    color: #000;
+    color: #000000;
 }
 
-.bg-pink-lighten4 {
+.bg-pink-lighten4
+{
     background-color: #f8bbd0;
-    color: #000;
+    color: #000000;
 }
 
-.bg-pink-lighten3 {
+.bg-pink-lighten3
+{
     background-color: #f48fb1;
-    color: #000;
+    color: #000000;
 }
 
-.bg-pink-lighten2 {
+.bg-pink-lighten2
+{
     background-color: #f06292;
-    color: #000;
+    color: #000000;
 }
 
-.bg-pink-lighten1 {
+.bg-pink-lighten1
+{
     background-color: #ec407a;
-    color: #000;
+    color: #000000;
 }
 
-.bg-pink {
+.bg-pink
+{
     background-color: #e91e63;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-pink-darken1 {
+.bg-pink-darken1
+{
     background-color: #d81b60;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-pink-darken2 {
+.bg-pink-darken2
+{
     background-color: #c2185b;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-pink-darken3 {
+.bg-pink-darken3
+{
     background-color: #ad1457;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-pink-darken4 {
+.bg-pink-darken4
+{
     background-color: #880e4f;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-pink-accent1 {
+.bg-pink-accent1
+{
     background-color: #ff80ab;
-    color: #000;
+    color: #000000;
 }
 
-.bg-pink-accent2 {
+.bg-pink-accent2
+{
     background-color: #ff4081;
-    color: #000;
+    color: #000000;
 }
 
-.bg-pink-accent3 {
+.bg-pink-accent3
+{
     background-color: #f50057;
-    color: #000;
+    color: #000000;
 }
 
-.bg-pink-accent4 {
+.bg-pink-accent4
+{
     background-color: #c51162;
-    color: #000;
+    color: #000000;
 }
-
 
 /****************************************************************************
  * Production Colors - Purple
  ****************************************************************************/
-.bg-purple-lighten5 {
+.bg-purple-lighten5
+{
     background-color: #f3e5f5;
-    color: #000;
+    color: #000000;
 }
 
-.bg-purple-lighten4 {
+.bg-purple-lighten4
+{
     background-color: #e1bee7;
-    color: #000;
+    color: #000000;
 }
 
-.bg-purple-lighten3 {
+.bg-purple-lighten3
+{
     background-color: #ce93d8;
-    color: #000;
+    color: #000000;
 }
 
-.bg-purple-lighten2 {
+.bg-purple-lighten2
+{
     background-color: #ba68c8;
-    color: #000;
+    color: #000000;
 }
 
-.bg-purple-lighten1 {
+.bg-purple-lighten1
+{
     background-color: #ab47bc;
-    color: #000;
+    color: #000000;
 }
 
-.bg-purple {
+.bg-purple
+{
     background-color: #9c27b0;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-purple-darken1 {
+.bg-purple-darken1
+{
     background-color: #8e24aa;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-purple-darken2 {
+.bg-purple-darken2
+{
     background-color: #7b1fa2;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-purple-darken3 {
+.bg-purple-darken3
+{
     background-color: #6a1b9a;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-purple-darken4 {
+.bg-purple-darken4
+{
     background-color: #4a148c;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-purple-accent1 {
+.bg-purple-accent1
+{
     background-color: #ea80fc;
-    color: #000;
+    color: #000000;
 }
 
-.bg-purple-accent2 {
+.bg-purple-accent2
+{
     background-color: #e040fb;
-    color: #000;
+    color: #000000;
 }
 
-.bg-purple-accent3 {
+.bg-purple-accent3
+{
     background-color: #d500f9;
-    color: #000;
+    color: #000000;
 }
 
-.bg-purple-accent4 {
+.bg-purple-accent4
+{
     background-color: #aa00ff;
-    color: #000;
+    color: #000000;
 }
-
 
 /****************************************************************************
  * Production Colors - Deep Purple
  ****************************************************************************/
-.bg-deep-purple-lighten5 {
+.bg-deep-purple-lighten5
+{
     background-color: #ede7f6;
-    color: #000;
+    color: #000000;
 }
 
-.bg-deep-purple-lighten4 {
+.bg-deep-purple-lighten4
+{
     background-color: #d1c4e9;
-    color: #000;
+    color: #000000;
 }
 
-.bg-deep-purple-lighten3 {
+.bg-deep-purple-lighten3
+{
     background-color: #b39ddb;
-    color: #000;
+    color: #000000;
 }
 
-.bg-deep-purple-lighten2 {
+.bg-deep-purple-lighten2
+{
     background-color: #9575cd;
-    color: #000;
+    color: #000000;
 }
 
-.bg-deep-purple-lighten1 {
+.bg-deep-purple-lighten1
+{
     background-color: #7e57c2;
-    color: #000;
+    color: #000000;
 }
 
-.bg-deep-purple {
+.bg-deep-purple
+{
     background-color: #673ab7;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-deep-purple-darken1 {
+.bg-deep-purple-darken1
+{
     background-color: #5e35b1;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-deep-purple-darken2 {
+.bg-deep-purple-darken2
+{
     background-color: #512da8;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-deep-purple-darken3 {
+.bg-deep-purple-darken3
+{
     background-color: #4527a0;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-deep-purple-darken4 {
+.bg-deep-purple-darken4
+{
     background-color: #311b92;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-deep-purple-accent1 {
+.bg-deep-purple-accent1
+{
     background-color: #b388ff;
-    color: #000;
+    color: #000000;
 }
 
-.bg-deep-purple-accent2 {
+.bg-deep-purple-accent2
+{
     background-color: #7c4dff;
-    color: #000;
+    color: #000000;
 }
 
-.bg-deep-purple-accent3 {
+.bg-deep-purple-accent3
+{
     background-color: #651fff;
-    color: #000;
+    color: #000000;
 }
 
-.bg-deep-purple-accent4 {
+.bg-deep-purple-accent4
+{
     background-color: #6200ea;
-    color: #000;
+    color: #000000;
 }
-
 
 /****************************************************************************
  * Production Colors - Indigo
  ****************************************************************************/
-.bg-indigo-lighten5 {
+.bg-indigo-lighten5
+{
     background-color: #e8eaf6;
-    color: #000;
+    color: #000000;
 }
 
-.bg-indigo-lighten4 {
+.bg-indigo-lighten4
+{
     background-color: #c5cae9;
-    color: #000;
+    color: #000000;
 }
 
-.bg-indigo-lighten3 {
+.bg-indigo-lighten3
+{
     background-color: #9fa8da;
-    color: #000;
+    color: #000000;
 }
 
-.bg-indigo-lighten2 {
+.bg-indigo-lighten2
+{
     background-color: #7986cb;
-    color: #000;
+    color: #000000;
 }
 
-.bg-indigo-lighten1 {
+.bg-indigo-lighten1
+{
     background-color: #5c6bc0;
-    color: #000;
+    color: #000000;
 }
 
-.bg-indigo {
+.bg-indigo
+{
     background-color: #3f51b5;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-indigo-darken1 {
+.bg-indigo-darken1
+{
     background-color: #3949ab;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-indigo-darken2 {
+.bg-indigo-darken2
+{
     background-color: #303f9f;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-indigo-darken3 {
+.bg-indigo-darken3
+{
     background-color: #283593;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-indigo-darken4 {
+.bg-indigo-darken4
+{
     background-color: #1a237e;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-indigo-accent1 {
+.bg-indigo-accent1
+{
     background-color: #8c9eff;
-    color: #000;
+    color: #000000;
 }
 
-.bg-indigo-accent2 {
+.bg-indigo-accent2
+{
     background-color: #536dfe;
-    color: #000;
+    color: #000000;
 }
 
-.bg-indigo-accent3 {
+.bg-indigo-accent3
+{
     background-color: #3d5afe;
-    color: #000;
+    color: #000000;
 }
 
-.bg-indigo-accent4 {
+.bg-indigo-accent4
+{
     background-color: #304ffe;
-    color: #000;
+    color: #000000;
 }
-
 
 /****************************************************************************
  * Production Colors - Blue
  ****************************************************************************/
-.bg-blue-lighten5 {
+.bg-blue-lighten5
+{
     background-color: #e3f2fd;
-    color: #000;
+    color: #000000;
 }
 
-.bg-blue-lighten4 {
+.bg-blue-lighten4
+{
     background-color: #bbdefb;
-    color: #000;
+    color: #000000;
 }
 
-.bg-blue-lighten3 {
+.bg-blue-lighten3
+{
     background-color: #90caf9;
-    color: #000;
+    color: #000000;
 }
 
-.bg-blue-lighten2 {
+.bg-blue-lighten2
+{
     background-color: #64b5f6;
-    color: #000;
+    color: #000000;
 }
 
-.bg-blue-lighten1 {
+.bg-blue-lighten1
+{
     background-color: #42a5f5;
-    color: #000;
+    color: #000000;
 }
 
-.bg-blue {
+.bg-blue
+{
     background-color: #2196f3;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-blue-darken1 {
+.bg-blue-darken1
+{
     background-color: #1e88e5;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-blue-darken2 {
+.bg-blue-darken2
+{
     background-color: #1976d2;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-blue-darken3 {
+.bg-blue-darken3
+{
     background-color: #1565c0;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-blue-darken4 {
+.bg-blue-darken4
+{
     background-color: #0d47a1;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-blue-accent1 {
+.bg-blue-accent1
+{
     background-color: #82b1ff;
-    color: #000;
+    color: #000000;
 }
 
-.bg-blue-accent2 {
+.bg-blue-accent2
+{
     background-color: #448aff;
-    color: #000;
+    color: #000000;
 }
 
-.bg-blue-accent3 {
+.bg-blue-accent3
+{
     background-color: #2979ff;
-    color: #000;
+    color: #000000;
 }
 
-.bg-blue-accent4 {
+.bg-blue-accent4
+{
     background-color: #2962ff;
-    color: #000;
+    color: #000000;
 }
-
 
 /****************************************************************************
  * Production Colors - Light Blue
  ****************************************************************************/
-.bg-light-blue-lighten5 {
+.bg-light-blue-lighten5
+{
     background-color: #e1f5fe;
-    color: #000;
+    color: #000000;
 }
 
-.bg-light-blue-lighten4 {
+.bg-light-blue-lighten4
+{
     background-color: #b3e5fc;
-    color: #000;
+    color: #000000;
 }
 
-.bg-light-blue-lighten3 {
+.bg-light-blue-lighten3
+{
     background-color: #81d4fa;
-    color: #000;
+    color: #000000;
 }
 
-.bg-light-blue-lighten2 {
+.bg-light-blue-lighten2
+{
     background-color: #4fc3f7;
-    color: #000;
+    color: #000000;
 }
 
-.bg-light-blue-lighten1 {
+.bg-light-blue-lighten1
+{
     background-color: #29b6f6;
-    color: #000;
+    color: #000000;
 }
 
-.bg-light-blue {
+.bg-light-blue
+{
     background-color: #03a9f4;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-light-blue-darken1 {
+.bg-light-blue-darken1
+{
     background-color: #039be5;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-light-blue-darken2 {
+.bg-light-blue-darken2
+{
     background-color: #0288d1;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-light-blue-darken3 {
+.bg-light-blue-darken3
+{
     background-color: #0277bd;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-light-blue-darken4 {
+.bg-light-blue-darken4
+{
     background-color: #01579b;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-light-blue-accent1 {
+.bg-light-blue-accent1
+{
     background-color: #80d8ff;
-    color: #000;
+    color: #000000;
 }
 
-.bg-light-blue-accent2 {
+.bg-light-blue-accent2
+{
     background-color: #40c4ff;
-    color: #000;
+    color: #000000;
 }
 
-.bg-light-blue-accent3 {
+.bg-light-blue-accent3
+{
     background-color: #00b0ff;
-    color: #000;
+    color: #000000;
 }
 
-.bg-light-blue-accent4 {
+.bg-light-blue-accent4
+{
     background-color: #0091ea;
-    color: #000;
+    color: #000000;
 }
-
 
 /****************************************************************************
  * Production Colors - Cyan
  ****************************************************************************/
-.bg-cyan-lighten5 {
+.bg-cyan-lighten5
+{
     background-color: #e0f7fa;
-    color: #000;
+    color: #000000;
 }
 
-.bg-cyan-lighten4 {
+.bg-cyan-lighten4
+{
     background-color: #b2ebf2;
-    color: #000;
+    color: #000000;
 }
 
-.bg-cyan-lighten3 {
+.bg-cyan-lighten3
+{
     background-color: #80deea;
-    color: #000;
+    color: #000000;
 }
 
-.bg-cyan-lighten2 {
+.bg-cyan-lighten2
+{
     background-color: #4dd0e1;
-    color: #000;
+    color: #000000;
 }
 
-.bg-cyan-lighten1 {
+.bg-cyan-lighten1
+{
     background-color: #26c6da;
-    color: #000;
+    color: #000000;
 }
 
-.bg-cyan {
+.bg-cyan
+{
     background-color: #00bcd4;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-cyan-darken1 {
+.bg-cyan-darken1
+{
     background-color: #00acc1;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-cyan-darken2 {
+.bg-cyan-darken2
+{
     background-color: #0097a7;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-cyan-darken3 {
+.bg-cyan-darken3
+{
     background-color: #00838f;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-cyan-darken4 {
+.bg-cyan-darken4
+{
     background-color: #006064;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-cyan-accent1 {
+.bg-cyan-accent1
+{
     background-color: #84ffff;
-    color: #000;
+    color: #000000;
 }
 
-.bg-cyan-accent2 {
+.bg-cyan-accent2
+{
     background-color: #18ffff;
-    color: #000;
+    color: #000000;
 }
 
-.bg-cyan-accent3 {
+.bg-cyan-accent3
+{
     background-color: #00e5ff;
-    color: #000;
+    color: #000000;
 }
 
-.bg-cyan-accent4 {
+.bg-cyan-accent4
+{
     background-color: #00b8d4;
-    color: #000;
+    color: #000000;
 }
-
 
 /****************************************************************************
  * Production Colors - Teal
  ****************************************************************************/
-.bg-teal-lighten5 {
+.bg-teal-lighten5
+{
     background-color: #e0f2f1;
-    color: #000;
+    color: #000000;
 }
 
-.bg-teal-lighten4 {
+.bg-teal-lighten4
+{
     background-color: #b2dfdb;
-    color: #000;
+    color: #000000;
 }
 
-.bg-teal-lighten3 {
+.bg-teal-lighten3
+{
     background-color: #80cbc4;
-    color: #000;
+    color: #000000;
 }
 
-.bg-teal-lighten2 {
+.bg-teal-lighten2
+{
     background-color: #4db6ac;
-    color: #000;
+    color: #000000;
 }
 
-.bg-teal-lighten1 {
+.bg-teal-lighten1
+{
     background-color: #26a69a;
-    color: #000;
+    color: #000000;
 }
 
-.bg-teal {
+.bg-teal
+{
     background-color: #009688;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-teal-darken1 {
+.bg-teal-darken1
+{
     background-color: #00897b;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-teal-darken2 {
+.bg-teal-darken2
+{
     background-color: #00796b;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-teal-darken3 {
+.bg-teal-darken3
+{
     background-color: #00695c;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-teal-darken4 {
+.bg-teal-darken4
+{
     background-color: #004d40;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-teal-accent1 {
+.bg-teal-accent1
+{
     background-color: #a7ffeb;
-    color: #000;
+    color: #000000;
 }
 
-.bg-teal-accent2 {
+.bg-teal-accent2
+{
     background-color: #64ffda;
-    color: #000;
+    color: #000000;
 }
 
-.bg-teal-accent3 {
+.bg-teal-accent3
+{
     background-color: #1de9b6;
-    color: #000;
+    color: #000000;
 }
 
-.bg-teal-accent4 {
+.bg-teal-accent4
+{
     background-color: #00bfa5;
-    color: #000;
+    color: #000000;
 }
-
 
 /****************************************************************************
  * Production Colors - Green
  ****************************************************************************/
-.bg-green-lighten5 {
+.bg-green-lighten5
+{
     background-color: #e8f5e9;
-    color: #000;
+    color: #000000;
 }
 
-.bg-green-lighten4 {
+.bg-green-lighten4
+{
     background-color: #c8e6c9;
-    color: #000;
+    color: #000000;
 }
 
-.bg-green-lighten3 {
+.bg-green-lighten3
+{
     background-color: #a5d6a7;
-    color: #000;
+    color: #000000;
 }
 
-.bg-green-lighten2 {
+.bg-green-lighten2
+{
     background-color: #81c784;
-    color: #000;
+    color: #000000;
 }
 
-.bg-green-lighten1 {
+.bg-green-lighten1
+{
     background-color: #66bb6a;
-    color: #000;
+    color: #000000;
 }
 
-.bg-green {
+.bg-green
+{
     background-color: #4caf50;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-green-darken1 {
+.bg-green-darken1
+{
     background-color: #43a047;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-green-darken2 {
+.bg-green-darken2
+{
     background-color: #388e3c;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-green-darken3 {
+.bg-green-darken3
+{
     background-color: #2e7d32;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-green-darken4 {
+.bg-green-darken4
+{
     background-color: #1b5e20;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-green-accent1 {
+.bg-green-accent1
+{
     background-color: #b9f6ca;
-    color: #000;
+    color: #000000;
 }
 
-.bg-green-accent2 {
+.bg-green-accent2
+{
     background-color: #69f0ae;
-    color: #000;
+    color: #000000;
 }
 
-.bg-green-accent3 {
+.bg-green-accent3
+{
     background-color: #00e676;
-    color: #000;
+    color: #000000;
 }
 
-.bg-green-accent4 {
+.bg-green-accent4
+{
     background-color: #00c853;
-    color: #000;
+    color: #000000;
 }
 
 /****************************************************************************
  * Production Colors - Light-Green
  ****************************************************************************/
-.bg-light-green-lighten5 {
+.bg-light-green-lighten5
+{
     background-color: #f1f8e9;
-    color: #000;
+    color: #000000;
 }
 
-.bg-light-green-lighten4 {
+.bg-light-green-lighten4
+{
     background-color: #dcedc8;
-    color: #000;
+    color: #000000;
 }
 
-.bg-light-green-lighten3 {
+.bg-light-green-lighten3
+{
     background-color: #c5e1a5;
-    color: #000;
+    color: #000000;
 }
 
-.bg-light-green-lighten2 {
+.bg-light-green-lighten2
+{
     background-color: #aed581;
-    color: #000;
+    color: #000000;
 }
 
-.bg-light-green-lighten1 {
+.bg-light-green-lighten1
+{
     background-color: #9ccc65;
-    color: #000;
+    color: #000000;
 }
 
-.bg-light-green {
+.bg-light-green
+{
     background-color: #8bc34a;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-light-green-darken1 {
+.bg-light-green-darken1
+{
     background-color: #7cb342;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-light-green-darken2 {
+.bg-light-green-darken2
+{
     background-color: #689f38;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-light-green-darken3 {
+.bg-light-green-darken3
+{
     background-color: #558b2f;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-light-green-darken4 {
+.bg-light-green-darken4
+{
     background-color: #33691e;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-light-green-accent1 {
+.bg-light-green-accent1
+{
     background-color: #ccff90;
-    color: #000;
+    color: #000000;
 }
 
-.bg-light-green-accent2 {
+.bg-light-green-accent2
+{
     background-color: #b2ff59;
-    color: #000;
+    color: #000000;
 }
 
-.bg-light-green-accent3 {
+.bg-light-green-accent3
+{
     background-color: #76ff03;
-    color: #000;
+    color: #000000;
 }
 
-.bg-light-green-accent4 {
+.bg-light-green-accent4
+{
     background-color: #64dd17;
-    color: #000;
+    color: #000000;
 }
 
 /****************************************************************************
  * Production Colors - Lime
  ****************************************************************************/
-.bg-lime-lighten5 {
+.bg-lime-lighten5
+{
     background-color: #f9fbe7;
-    color: #000;
+    color: #000000;
 }
 
-.bg-lime-lighten4 {
+.bg-lime-lighten4
+{
     background-color: #f0f4c3;
-    color: #000;
+    color: #000000;
 }
 
-.bg-lime-lighten3 {
+.bg-lime-lighten3
+{
     background-color: #e6ee9c;
-    color: #000;
+    color: #000000;
 }
 
-.bg-lime-lighten2 {
+.bg-lime-lighten2
+{
     background-color: #dce775;
-    color: #000;
+    color: #000000;
 }
 
-.bg-lime-lighten1 {
+.bg-lime-lighten1
+{
     background-color: #d4e157;
-    color: #000;
+    color: #000000;
 }
 
-.bg-lime {
+.bg-lime
+{
     background-color: #cddc39;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-lime-darken1 {
+.bg-lime-darken1
+{
     background-color: #c0ca33;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-lime-darken2 {
+.bg-lime-darken2
+{
     background-color: #afb42b;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-lime-darken3 {
+.bg-lime-darken3
+{
     background-color: #9e9d24;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-lime-darken4 {
+.bg-lime-darken4
+{
     background-color: #827717;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-lime-accent1 {
+.bg-lime-accent1
+{
     background-color: #f4ff81;
-    color: #000;
+    color: #000000;
 }
 
-.bg-lime-accent2 {
+.bg-lime-accent2
+{
     background-color: #eeff41;
-    color: #000;
+    color: #000000;
 }
 
-.bg-lime-accent3 {
+.bg-lime-accent3
+{
     background-color: #c6ff00;
-    color: #000;
+    color: #000000;
 }
 
-.bg-lime-accent4 {
+.bg-lime-accent4
+{
     background-color: #aeea00;
-    color: #000;
+    color: #000000;
 }
 
 /****************************************************************************
  * Production Colors - Yellow
  ****************************************************************************/
-.bg-yellow-lighten5 {
+.bg-yellow-lighten5
+{
     background-color: #fffde7;
-    color: #000;
+    color: #000000;
 }
 
-.bg-yellow-lighten4 {
+.bg-yellow-lighten4
+{
     background-color: #fff9c4;
-    color: #000;
+    color: #000000;
 }
 
-.bg-yellow-lighten3 {
+.bg-yellow-lighten3
+{
     background-color: #fff59d;
-    color: #000;
+    color: #000000;
 }
 
-.bg-yellow-lighten2 {
+.bg-yellow-lighten2
+{
     background-color: #fff176;
-    color: #000;
+    color: #000000;
 }
 
-.bg-yellow-lighten1 {
+.bg-yellow-lighten1
+{
     background-color: #ffee58;
-    color: #000;
+    color: #000000;
 }
 
-.bg-yellow {
+.bg-yellow
+{
     background-color: #ffeb3b;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-yellow-darken1 {
+.bg-yellow-darken1
+{
     background-color: #fdd835;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-yellow-darken2 {
+.bg-yellow-darken2
+{
     background-color: #fbc02d;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-yellow-darken3 {
+.bg-yellow-darken3
+{
     background-color: #f9a825;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-yellow-darken4 {
+.bg-yellow-darken4
+{
     background-color: #f57f17;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-yellow-accent1 {
+.bg-yellow-accent1
+{
     background-color: #ffff8d;
-    color: #000;
+    color: #000000;
 }
 
-.bg-yellow-accent2 {
+.bg-yellow-accent2
+{
     background-color: #ffff00;
-    color: #000;
+    color: #000000;
 }
 
-.bg-yellow-accent3 {
+.bg-yellow-accent3
+{
     background-color: #ffea00;
-    color: #000;
+    color: #000000;
 }
 
-.bg-yellow-accent4 {
+.bg-yellow-accent4
+{
     background-color: #ffd600;
-    color: #000;
+    color: #000000;
 }
 
 /****************************************************************************
  * Production Colors - Amber
  ****************************************************************************/
-.bg-amber-lighten5 {
+.bg-amber-lighten5
+{
     background-color: #fff8e1;
-    color: #000;
+    color: #000000;
 }
 
-.bg-amber-lighten4 {
+.bg-amber-lighten4
+{
     background-color: #ffecb3;
-    color: #000;
+    color: #000000;
 }
 
-.bg-amber-lighten3 {
+.bg-amber-lighten3
+{
     background-color: #ffe082;
-    color: #000;
+    color: #000000;
 }
 
-.bg-amber-lighten2 {
+.bg-amber-lighten2
+{
     background-color: #ffd54f;
-    color: #000;
+    color: #000000;
 }
 
-.bg-amber-lighten1 {
+.bg-amber-lighten1
+{
     background-color: #ffca28;
-    color: #000;
+    color: #000000;
 }
 
-.bg-amber {
+.bg-amber
+{
     background-color: #ffc107;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-amber-darken1 {
+.bg-amber-darken1
+{
     background-color: #ffb300;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-amber-darken2 {
+.bg-amber-darken2
+{
     background-color: #ffa000;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-amber-darken3 {
+.bg-amber-darken3
+{
     background-color: #ff8f00;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-amber-darken4 {
+.bg-amber-darken4
+{
     background-color: #ff6f00;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-amber-accent1 {
+.bg-amber-accent1
+{
     background-color: #ffe57f;
-    color: #000;
+    color: #000000;
 }
 
-.bg-amber-accent2 {
+.bg-amber-accent2
+{
     background-color: #ffd740;
-    color: #000;
+    color: #000000;
 }
 
-.bg-amber-accent3 {
+.bg-amber-accent3
+{
     background-color: #ffc400;
-    color: #000;
+    color: #000000;
 }
 
-.bg-amber-accent4 {
+.bg-amber-accent4
+{
     background-color: #ffab00;
-    color: #000;
+    color: #000000;
 }
 
 /****************************************************************************
  * Production Colors - Orange
  ****************************************************************************/
-.bg-orange-lighten5 {
+.bg-orange-lighten5
+{
     background-color: #fff3e0;
-    color: #000;
+    color: #000000;
 }
 
-.bg-orange-lighten4 {
+.bg-orange-lighten4
+{
     background-color: #ffe0b2;
-    color: #000;
+    color: #000000;
 }
 
-.bg-orange-lighten3 {
+.bg-orange-lighten3
+{
     background-color: #ffcc80;
-    color: #000;
+    color: #000000;
 }
 
-.bg-orange-lighten2 {
+.bg-orange-lighten2
+{
     background-color: #ffb74d;
-    color: #000;
+    color: #000000;
 }
 
-.bg-orange-lighten1 {
+.bg-orange-lighten1
+{
     background-color: #ffa726;
-    color: #000;
+    color: #000000;
 }
 
-.bg-orange {
+.bg-orange
+{
     background-color: #ff9800;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-orange-darken1 {
+.bg-orange-darken1
+{
     background-color: #fb8c00;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-orange-darken2 {
+.bg-orange-darken2
+{
     background-color: #f57c00;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-orange-darken3 {
+.bg-orange-darken3
+{
     background-color: #ef6c00;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-orange-darken4 {
+.bg-orange-darken4
+{
     background-color: #e65100;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-orange-accent1 {
+.bg-orange-accent1
+{
     background-color: #ffd180;
-    color: #000;
+    color: #000000;
 }
 
-.bg-orange-accent2 {
+.bg-orange-accent2
+{
     background-color: #ffab40;
-    color: #000;
+    color: #000000;
 }
 
-.bg-orange-accent3 {
+.bg-orange-accent3
+{
     background-color: #ff9100;
-    color: #000;
+    color: #000000;
 }
 
-.bg-orange-accent4 {
+.bg-orange-accent4
+{
     background-color: #ff6d00;
-    color: #000;
+    color: #000000;
 }
 
 /****************************************************************************
  * Production Colors - Deep Orange
  ****************************************************************************/
-.bg-deep-orange-lighten5 {
+.bg-deep-orange-lighten5
+{
     background-color: #fbe9e7;
-    color: #000;
+    color: #000000;
 }
 
-.bg-deep-orange-lighten4 {
+.bg-deep-orange-lighten4
+{
     background-color: #ffccbc;
-    color: #000;
+    color: #000000;
 }
 
-.bg-deep-orange-lighten3 {
+.bg-deep-orange-lighten3
+{
     background-color: #ffab91;
-    color: #000;
+    color: #000000;
 }
 
-.bg-deep-orange-lighten2 {
+.bg-deep-orange-lighten2
+{
     background-color: #ff8a65;
-    color: #000;
+    color: #000000;
 }
 
-.bg-deep-orange-lighten1 {
+.bg-deep-orange-lighten1
+{
     background-color: #ff7043;
-    color: #000;
+    color: #000000;
 }
 
-.bg-deep-orange {
+.bg-deep-orange
+{
     background-color: #ff5722;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-deep-orange-darken1 {
+.bg-deep-orange-darken1
+{
     background-color: #f4511e;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-deep-orange-darken2 {
+.bg-deep-orange-darken2
+{
     background-color: #e64a19;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-deep-orange-darken3 {
+.bg-deep-orange-darken3
+{
     background-color: #d84315;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-deep-orange-darken4 {
+.bg-deep-orange-darken4
+{
     background-color: #bf360c;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-deep-orange-accent1 {
+.bg-deep-orange-accent1
+{
     background-color: #ff9e80;
-    color: #000;
+    color: #000000;
 }
 
-.bg-deep-orange-accent2 {
+.bg-deep-orange-accent2
+{
     background-color: #ff6e40;
-    color: #000;
+    color: #000000;
 }
 
-.bg-deep-orange-accent3 {
+.bg-deep-orange-accent3
+{
     background-color: #ff3d00;
-    color: #000;
+    color: #000000;
 }
 
-.bg-deep-orange-accent4 {
+.bg-deep-orange-accent4
+{
     background-color: #dd2c00;
-    color: #000;
+    color: #000000;
 }
 
 /****************************************************************************
  * Production Colors - Brown
  ****************************************************************************/
-.bg-brown-lighten5 {
+.bg-brown-lighten5
+{
     background-color: #efebe9;
-    color: #000;
+    color: #000000;
 }
 
-.bg-brown-lighten4 {
+.bg-brown-lighten4
+{
     background-color: #d7ccc8;
-    color: #000;
+    color: #000000;
 }
 
-.bg-brown-lighten3 {
+.bg-brown-lighten3
+{
     background-color: #bcaaa4;
-    color: #000;
+    color: #000000;
 }
 
-.bg-brown-lighten2 {
+.bg-brown-lighten2
+{
     background-color: #a1887f;
-    color: #000;
+    color: #000000;
 }
 
-.bg-brown-lighten1 {
+.bg-brown-lighten1
+{
     background-color: #8d6e63;
-    color: #000;
+    color: #000000;
 }
 
-.bg-brown {
+.bg-brown
+{
     background-color: #795548;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-brown-darken1 {
+.bg-brown-darken1
+{
     background-color: #6d4c41;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-brown-darken2 {
+.bg-brown-darken2
+{
     background-color: #5d4037;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-brown-darken3 {
+.bg-brown-darken3
+{
     background-color: #4e342e;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-brown-darken4 {
+.bg-brown-darken4
+{
     background-color: #3e2723;
-    color: #fff;
+    color: #ffffff;
 }
 
 /****************************************************************************
  * Production Colors - Grey
  ****************************************************************************/
-.bg-grey-lighten5 {
+.bg-grey-lighten5
+{
     background-color: #fafafa;
-    color: #000;
+    color: #000000;
 }
 
-.bg-grey-lighten4 {
+.bg-grey-lighten4
+{
     background-color: #f5f5f5;
-    color: #000;
+    color: #000000;
 }
 
-.bg-grey-lighten3 {
+.bg-grey-lighten3
+{
     background-color: #eeeeee;
-    color: #000;
+    color: #000000;
 }
 
-.bg-grey-lighten2 {
+.bg-grey-lighten2
+{
     background-color: #e0e0e0;
-    color: #000;
+    color: #000000;
 }
 
-.bg-grey-lighten1 {
+.bg-grey-lighten1
+{
     background-color: #bdbdbd;
-    color: #000;
+    color: #000000;
 }
 
-.bg-grey {
+.bg-grey
+{
     background-color: #9e9e9e;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-grey-darken1 {
+.bg-grey-darken1
+{
     background-color: #757575;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-grey-darken2 {
+.bg-grey-darken2
+{
     background-color: #616161;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-grey-darken3 {
+.bg-grey-darken3
+{
     background-color: #424242;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-grey-darken4 {
+.bg-grey-darken4
+{
     background-color: #212121;
-    color: #fff;
+    color: #ffffff;
 }
 
 /****************************************************************************
  * Production Colors - Blue Grey
  ****************************************************************************/
-.bg-blue-grey-lighten5 {
+.bg-blue-grey-lighten5
+{
     background-color: #eceff1;
-    color: #000;
+    color: #000000;
 }
 
-.bg-blue-grey-lighten4 {
+.bg-blue-grey-lighten4
+{
     background-color: #cfd8dc;
-    color: #000;
+    color: #000000;
 }
 
-.bg-blue-grey-lighten3 {
+.bg-blue-grey-lighten3
+{
     background-color: #b0bec5;
-    color: #000;
+    color: #000000;
 }
 
-.bg-blue-grey-lighten2 {
+.bg-blue-grey-lighten2
+{
     background-color: #90a4ae;
-    color: #000;
+    color: #000000;
 }
 
-.bg-blue-grey-lighten1 {
+.bg-blue-grey-lighten1
+{
     background-color: #78909c;
-    color: #000;
+    color: #000000;
 }
 
-.bg-blue-grey {
+.bg-blue-grey
+{
     background-color: #607d8b;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-blue-grey-darken1 {
+.bg-blue-grey-darken1
+{
     background-color: #546e7a;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-blue-grey-darken2 {
+.bg-blue-grey-darken2
+{
     background-color: #455a64;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-blue-grey-darken3 {
+.bg-blue-grey-darken3
+{
     background-color: #37474f;
-    color: #fff;
+    color: #ffffff;
 }
 
-.bg-blue-grey-darken4 {
+.bg-blue-grey-darken4
+{
     background-color: #263238;
-    color: #fff;
+    color: #ffffff;
 }
 
 /****************************************************************************
  * Production Colors - Black and White
  ****************************************************************************/
-.bg-black {
-    background-color: #000;
-    color: #fff;
+.bg-black
+{
+    background-color: #000000;
+    color: #ffffff;
 }
 
-.bg-white {
-    background-color: #fff;
-    color: #000;
+.bg-white
+{
+    background-color: #ffffff;
+    color: #000000;
 }

@@ -1,198 +1,179 @@
 /****************************************************************************
  * Fonts
  ****************************************************************************/
-@font-face {
+@font-face
+{
     font-family: Roboto;
-    src: url("../fonts/Roboto-Medium.woff2?v=1.1.0") format("woff2"),
-    url("../fonts/Roboto-Medium.woff?v=1.1.0") format("woff"),
-    url("../fonts/Roboto-Medium.ttf?v=1.1.0") format("truetype");
+    src:    url("../fonts/Roboto-Medium.woff2?v=1.1.0") format("woff2"),
+            url("../fonts/Roboto-Medium.woff?v=1.1.0") format("woff"),
+            url("../fonts/Roboto-Medium.ttf?v=1.1.0") format("truetype");
     font-weight: 500;
     font-style: normal;
 }
 
-@font-face {
+@font-face
+{
     font-family: Roboto;
-    src: url("../fonts/Roboto-Regular.woff2?v=1.1.0") format("woff2"),
-    url("../fonts/Roboto-Regular.woff?v=1.1.0") format("woff"),
-    url("../fonts/Roboto-Regular.ttf?v=1.1.0") format("truetype");
+    src:    url("../fonts/Roboto-Regular.woff2?v=1.1.0") format("woff2"),
+            url("../fonts/Roboto-Regular.woff?v=1.1.0") format("woff"),
+            url("../fonts/Roboto-Regular.ttf?v=1.1.0") format("truetype");
     font-weight: 400;
     font-style: normal;
 }
 
-@font-face {
+@font-face
+{
     font-family: Roboto;
-    src: url("../fonts/Roboto-Regular.woff2?v=1.1.0") format("woff2"),
-    url("../fonts/Roboto-Regular.woff?v=1.1.0") format("woff"),
-    url("../fonts/Roboto-Regular.ttf?v=1.1.0") format("truetype");
+    src:    url("../fonts/Roboto-Regular.woff2?v=1.1.0") format("woff2"),
+            url("../fonts/Roboto-Regular.woff?v=1.1.0") format("woff"),
+            url("../fonts/Roboto-Regular.ttf?v=1.1.0") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
-@font-face {
+@font-face
+{
     font-family: Roboto;
-    src: url("../fonts/Roboto-Light.woff2?v=1.1.0") format("woff2"),
-    url("../fonts/Roboto-Light.woff?v=1.1.0") format("woff"),
-    url("../fonts/Roboto-Light.ttf?v=1.1.0") format("truetype");
+    src:    url("../fonts/Roboto-Light.woff2?v=1.1.0") format("woff2"),
+            url("../fonts/Roboto-Light.woff?v=1.1.0") format("woff"),
+            url("../fonts/Roboto-Light.ttf?v=1.1.0") format("truetype");
     font-weight: 300;
     font-style: normal;
 }
 
-
-/*
+/****************************************************************************
  * Typography
- */
-body {
+ ****************************************************************************/
+body
+{
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     color: rgba(0, 0, 0, .54);
     background-color: #fafafa;
 }
 
-h1 {
+h1
+{
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-size: 112px;
     font-weight: 300;
-    line-height: 1;
-    letter-spacing: -.04em;
-    margin-bottom: 8px;
+    font-size: 63px;
+    line-height: 110%;
+    margin: 30px 0 30px 0;
 }
 
-h2 {
+h2
+{
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-size: 56px;
     font-weight: 400;
-    line-height: 1.35;
-    letter-spacing: -.02em;
-    margin-bottom: 8px;
+    font-size: 54px;
+    line-height: 110%;
+    margin: 25px 0 25px 0;
 }
 
-h3 {
+h3
+{
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-size: 45px;
     font-weight: 400;
-    line-height: 48px;
-    margin-bottom: 8px;
+    font-size: 44px;
+    line-height: 110%;
+    margin: 20px 0 20px 0;
 }
 
-h4 {
+h4
+{
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
     font-size: 34px;
-    font-weight: 400;
-    line-height: 40px;
-    margin-bottom: 8px;
+    line-height: 110%;
+    margin: 15px 0 15px 0;
 }
 
-h5 {
+h5
+{
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-size: 24px;
     font-weight: 400;
-    line-height: 32px;
-    margin-bottom: 8px;
+    font-size: 25px;
+    line-height: 110%;
+    margin: 10px 0 10px 0;
 }
 
-h6 {
+h6
+{
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1;
-    letter-spacing: .02em;
-    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    margin: 6px 0 6px 0;
 }
 
-p {
+p
+{
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
-    padding: 16px;
-    margin: 0;
+    font-size: 15px;
+    line-height: 23px;
+    padding: 0;
+    margin: 15px 0 15px 0;
     color: rgba(0, 0, 0, .54);
 }
 
-.card {
-    background: #fff;
-    border-radius: 2px;
-    margin: 6px;
+/****************************************************************************
+ * Shadow
+ ****************************************************************************/
+.shadow-1
+{
+    box-shadow: 0 2px 2px  0   rgba(0, 0, 0, 0.14),
+                0 1px 5px  0   rgba(0, 0, 0, 0.12),
+                0 3px 1px -2px rgba(0, 0, 0, 0.2);
 }
 
-.card-heading {
-    background-color: #46b4a9;
-    color: #fff;
+.shadow-2
+{
+    box-shadow: 0 4px  5px  0   rgba(0, 0, 0, 0.14),
+                0 1px 10px  0   rgba(0, 0, 0, 0.12),
+                0 2px  4px -1px rgba(0, 0, 0, 0.3);
 }
 
-.card-heading h3 {
-    font-size: 24px;
-    font-weight: 300;
-    margin: 0;
-    padding: 18px;
-    line-height: 1em;
+.shadow-3
+{
+    box-shadow: 0 6px 10px  0   rgba(0, 0, 0, 0.14),
+                0 1px 18px  0   rgba(0, 0, 0, 0.12),
+                0 3px  5px -1px rgba(0, 0, 0, 0.3);
 }
 
-.card-main {
-
+.shadow-4
+{
+    box-shadow: 0 8px 10px  1px rgba(0, 0, 0, 0.14),
+                0 3px 14px  2px rgba(0, 0, 0, 0.12),
+                0 5px  5px -3px rgba(0, 0, 0, 0.3);
 }
 
-.card-actions {
-    border-top: #d9d9d9 1px solid;
-    padding: 18px;
-
+.shadow-5
+{
+    box-shadow: 0 16px 24px  2px rgba(0, 0, 0, 0.14),
+                0 6px  30px  5px rgba(0, 0, 0, 0.12),
+                0 8px  10px -5px rgba(0, 0, 0, 0.3);
 }
 
-.card-1 {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14),
-                0 1px 5px 0 rgba(0, 0, 0, .12),
-                0 3px 2px -2px rgba(0, 0, 0, .2);
-}
-
-.card-2 {
-    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .14),
-                0 1px 8px 0 rgba(0, 0, 0, .12),
-                0 3px 3px -2px rgba(0, 0, 0, .4);
-}
-
-.card-3 {
-    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14),
-                0 1px 10px 0 rgba(0, 0, 0, .12),
-                0 2px 4px -1px rgba(0, 0, 0, .4);
-}
-
-.card-4 {
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .14),
-                0 1px 18px 0 rgba(0, 0, 0, .12),
-                0 3px 5px -1px rgba(0, 0, 0, .4);
-}
-
-.card-5 {
-    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14),
-                0 3px 14px 2px rgba(0, 0, 0, .12),
-                0 5px 7px -3px rgba(0, 0, 0, .4);
-}
-
-.card-6 {
-    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14),
-                0 6px 30px 5px rgba(0, 0, 0, .12),
-                0 8px 10px -5px rgba(0, 0, 0, .4);
-}
-
-.card-7 {
-    box-shadow: 0 9px 46px 8px rgba(0, 0, 0, .14),
-                0 24px 38px 3px rgba(0, 0, 0, .12),
-                0 11px 15px -7px rgba(0, 0, 0, .4);
-}
-
+/****************************************************************************
+ * Tables
+ ****************************************************************************/
 .table > thead > tr > th,
 .table > tbody > tr > th,
 .table > tfoot > tr > th,
 .table > thead > tr > td,
 .table > tbody > tr > td,
-.table > tfoot > tr > td {
-    padding: 1.6rem;
-    border: 0;
+.table > tfoot > tr > td
+{
+    padding: 15px 5px;
+    text-align: left;
+    vertical-align: middle;
+    border-radius: 2px;
 }
 
-.table > thead > tr > th {
+.table > thead > tr > th
+{
     font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    color: #757575;
+    font-weight: 600;
     vertical-align: bottom;
     border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
@@ -202,19 +183,23 @@ p {
 .table > thead:first-child > tr:first-child > th,
 .table > caption + thead > tr:first-child > td,
 .table > colgroup + thead > tr:first-child > td,
-.table > thead:first-child > tr:first-child > td {
+.table > thead:first-child > tr:first-child > td
+{
     border-top: 0;
 }
 
-.table > tbody + tbody {
+.table > tbody + tbody
+{
     border-top: 1px solid rgba(0, 0, 0, 0.12);
 }
 
-.table .table {
-    background-color: #fff;
+.table .table
+{
+    background-color: #ffffff;
 }
 
-.table .no-border {
+.table .no-border
+{
     border: 0;
 }
 
@@ -223,11 +208,13 @@ p {
 .table-condensed > tfoot > tr > th,
 .table-condensed > thead > tr > td,
 .table-condensed > tbody > tr > td,
-.table-condensed > tfoot > tr > td {
+.table-condensed > tfoot > tr > td
+{
     padding: 0.8rem;
 }
 
-.table-bordered {
+.table-bordered
+{
     border: 0;
 }
 
@@ -236,17 +223,23 @@ p {
 .table-bordered > tfoot > tr > th,
 .table-bordered > thead > tr > td,
 .table-bordered > tbody > tr > td,
-.table-bordered > tfoot > tr > td {
+.table-bordered > tfoot > tr > td
+{
     border: 0;
     border-bottom: 1px solid #e0e0e0;
 }
 
 .table-bordered > thead > tr > th,
-.table-bordered > thead > tr > td {
+.table-bordered > thead > tr > td
+{
     border-bottom-width: 2px;
 }
 
-.form-control {
+/****************************************************************************
+ * Forms
+ ****************************************************************************/
+.form-control
+{
     font-size: 15px;
     padding: 8px 10px 8px 5px;
     display: block;
@@ -257,62 +250,85 @@ p {
     transition: none;
 }
 
-.form-control:focus {
-    padding: 8px 10px 5px 5px;
+.form-control:focus
+{
+    padding: 8px 10px 6px 5px;
     box-shadow: none;
     transition: none;
     border-bottom: 3px solid #757575;
 }
 
-.btn {
+/****************************************************************************
+ * Buttons
+ ****************************************************************************/
+.btn
+{
     border-radius: 2px;
     border: 0;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14),
-                0 1px 5px 0 rgba(0, 0, 0, .12),
-                0 3px 2px -2px rgba(0, 0, 0, .2);
+    height: 36px;
+    font-size: 15px;
+    box-shadow: 0 2px 2px  0   rgba(0, 0, 0, 0.14),
+                0 1px 5px  0   rgba(0, 0, 0, 0.12),
+                0 3px 1px -2px rgba(0, 0, 0, 0.2);
     font-weight: 500;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 6px;
+    margin-right: 6px;
     text-transform: uppercase;
 }
 
-.btn:focus, .btn:active:focus, .btn.focus, .btn.active.focus {
+.btn:focus, .btn:active:focus, .btn.focus, .btn.active.focus
+{
     outline: 0 auto;
 }
 
-.btn:active, .btn.active {
+.btn:active, .btn.active
+{
     outline: 0;
     background-image: none;
+    box-shadow: 0 1px 1px  0   rgba(0, 0, 0, 0.14),
+                0 1px 2px  0   rgba(0, 0, 0, 0.12),
+                0 1px 1px -1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-default
+{
+    color: #757575;
+}
+
+.btn-default:hover
+{
+    color: #757575;
+    background-color: #eeeeee;
+}
+
+.btn-flat
+{
+    color: #757575;
+    box-shadow: none;
+    background-color: #ffffff;
+}
+
+.btn-flat:active, .btn-flat.active
+{
     box-shadow: none;
 }
 
-.btn-default {
-    color: #757575;
+.btn-flat:hover
+{
+    background-color: #eeeeee;
 }
 
-.btn-default:hover {
-    color: #757575;
-    background-color: #eee;
+.btn-flat:active
+{
+    background-color: #dddddd;
 }
 
-.btn-flat {
-    color: #757575;
-    box-shadow: none;
-    background-color: #fff;
+.btn-link:hover
+{
+    background-color: #eeeeee;
 }
 
-.btn-flat:hover {
-    background-color: #eee;
-}
-
-.btn-flat:active {
-    background-color: #ddd;
-}
-
-.btn-link:hover {
-    background-color: #eee;
-}
-
-.btn-link:active {
-    background-color: #ddd;
+.btn-link:active
+{
+    background-color: #dddddd;
 }

@@ -392,10 +392,9 @@
     "labels.less",
     "badges.less",
     "thumbnails.less",
-    "alerts.less",
     "media.less",
     "responsive-embed.less"
   ],
   "js": [],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=1392fc6c05c5d8f7aca6481fdcbbd8fa"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=91dc8443b491d2030a51fb572bdc0722"
 }
